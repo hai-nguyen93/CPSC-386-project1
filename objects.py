@@ -3,7 +3,7 @@ import pygame
 
 class Ball:
     def __init__(self, image):
-        self.velocity = pygame.math.Vector2()  # convert a velocity tuple to vector2
+        self.velocity = pygame.math.Vector2()
         self.velocity.x = 0
         self.velocity.y = 0
         self.image = image
